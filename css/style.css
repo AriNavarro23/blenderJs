@@ -11,7 +11,6 @@
     transform: translate(-50%, -50%);
     width: 700px;
     height: 500px;
-    /*background-color: red;*/
     background-image: url(../assets/blenderOff.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -19,11 +18,14 @@
 
 }
 
+.blender.active{
+    background-image: url(../assets/blenderOn.gif);
+}
+
 .blender-button{
     margin: 350px auto;
     width: 70px;
     height: 70px;
-    background-color: blue;
 }
 
 

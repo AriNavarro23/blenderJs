@@ -1,4 +1,6 @@
 var stateBlender = "off";
+var blender = document.getElementById("blender");
+
 
 function blenderControl(){
     if(stateBlender == "off"){
